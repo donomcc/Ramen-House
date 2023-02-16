@@ -1,0 +1,45 @@
+.adminForm {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+}
+
+.formDetails {
+  margin-top: 20px;
+  text-align: left;
+}
+.mealLabel {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+.inputs {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addItem {
+  width: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #1b4332;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

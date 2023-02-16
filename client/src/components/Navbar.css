@@ -1,0 +1,75 @@
+a,
+:active,
+:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  padding: 0 24px;
+  align-items: baseline;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  color: #1b4332;
+  /* border-bottom: 1.5px solid #1b4332; */
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+nav ul li:hover {
+  color: #2d2d2d;
+}
+.logo {
+  flex: 1/2;
+}
+.socials {
+  position: relative;
+}
+.socials li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.socials ul li:hover {
+  color: #2f7457;
+  cursor: pointer;
+}
+.links {
+  flex: 1;
+  position: relative;
+}
+
+.links ul li:hover {
+  color: #2f7457;
+  cursor: pointer;
+}
+
+.activeLink {
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #45ac81;
+}
+
+.reservation button {
+  font-size: 18px;
+  background-color: #1b4332;
+  color: white;
+  border-radius: 32px;
+  padding: 16px 24px;
+  border-style: none;
+  transition: all 0.2s ease-out;
+}
+
+.reservation button:hover {
+  background-color: #2f7457;
+  cursor: pointer;
+}

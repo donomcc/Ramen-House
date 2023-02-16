@@ -1,0 +1,24 @@
+.menuItemContainer {
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.menuItem {
+  padding: 24px 38px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 2px 15px 1px rgb(217, 217, 217);
+}
+
+.menuItem img {
+  max-width: 100%;
+  height: auto;
+}
+
+.productDetails {
+  text-align: left;
+}

@@ -1,0 +1,39 @@
+.adminForm {
+  padding: 24px 38px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.adminForm .formDetails {
+  padding: 24px 38px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.formDetails label {
+  font-size: 24px;
+  margin: 5px auto 10px auto;
+}
+
+.formDetails input {
+  padding: 10px 12px;
+  width: 100%;
+  font-size: 24px;
+}
+
+.formDetails textarea {
+  padding: 10px 12px;
+  width: 100%;
+  font-size: 24px;
+}
+
+.formDetails select {
+  padding: 10px 12px;
+  width: 108%;
+  font-size: 24px;
+}

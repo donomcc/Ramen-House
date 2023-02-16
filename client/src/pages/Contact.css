@@ -1,0 +1,10 @@
+.contact-container {
+  padding: 60px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-container {
+  width: 600px;
+  height: 400px;
+}

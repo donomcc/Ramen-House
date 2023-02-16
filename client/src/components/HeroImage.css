@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.text {
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  filter: brightness(65%);
+}
