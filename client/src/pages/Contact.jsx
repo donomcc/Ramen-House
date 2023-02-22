@@ -6,14 +6,14 @@ import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 function Contact() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyB1PElKtMBybVcwegemTiGnDGLFInH7l60",
+    googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
   });
 
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <div>
       <Navbar />
-      <div className="contact-container">
+      <section className="contact-container">
         <div className="contact-details">
           <h1>Ramen House</h1>
           <p>(123) 456-7890</p>
@@ -28,7 +28,7 @@ function Contact() {
             mapContainerClassName="map-container"
           ></GoogleMap>
         </div>
-      </div>
+      </section>
       <Footer />
     </div>
   );

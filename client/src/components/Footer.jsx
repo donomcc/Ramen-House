@@ -8,7 +8,7 @@ import axios from "axios";
 function Footer() {
   const { isAuthenticated, setIsAuthenticated } = useContext(AuthContext);
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <div className="column1">
         <h1>Ramen House</h1>
         <p>(123) 456-7890</p>
@@ -45,7 +45,7 @@ function Footer() {
           </p>
         )}
       </div>
-    </div>
+    </footer>
   );
 }
 

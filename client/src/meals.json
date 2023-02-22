@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "itemType": "ramen",
+    "title": "Spicy Tonkotsu Ramen",
+    "price": "8.99",
+    "description": "Spicy ramen!",
+    "imageUrl": "https://glebekitchen.com/wp-content/uploads/2017/04/tonkotsuramenfront.jpg"
+  },
+  {
+    "id": 2,
+    "itemType": "ramen",
+    "title": "Miso Ramen",
+    "price": "7.99",
+    "description": "Miso ramen yummy.",
+    "imageUrl": "https://dishingouthealth.com/wp-content/uploads/2022/01/SpicyMisoRamen_Square.jpg"
+  },
+  {
+    "id": 3,
+    "itemType": "ramen",
+    "title": "Shoyu Ramen",
+    "price": "7.99",
+    "description": "Hot Shoyu Ramen.",
+    "imageUrl": "https://images.getrecipekit.com/20210930182508-untitled-design-33.jpg?aspect_ratio=1:1&quality=90&"
+  },
+  {
+    "id": 4,
+    "itemType": "appetizer",
+    "title": "Chicken Karaage",
+    "price": "5.99",
+    "description": "Tasty crispy chicken.",
+    "imageUrl": "https://images.food52.com/A6TJWmtkw5Me2vw1iV5fFssxI2A=/1200x900/9c2e0ac4-d228-4060-ac2b-6fd9ab27081a--2022-0126_chicken-karaage_3x2_rocky-luten_016.jpg"
+  },
+  {
+    "id": 5,
+    "itemType": "appetizer",
+    "title": "Takoyaki",
+    "price": "3.99",
+    "description": "Takoyaki!",
+    "imageUrl": "https://www.wandercooks.com/wp-content/uploads/2019/09/takoyaki-recipe-ft-500x500.jpg"
+  },
+  {
+    "id": 6,
+    "itemType": "appetizer",
+    "title": "Edamame",
+    "price": "7.99",
+    "description": "Fresh edamame.",
+    "imageUrl": "https://www.garlicandzest.com/wp-content/uploads/2014/02/blistered-edamame-11.jpg"
+  },
+  {
+    "id": 7,
+    "itemType": "curry",
+    "title": "Chicken Katsu Curry",
+    "price": "9.99",
+    "description": "Crispy chicken with a savory curry sauce on a bed of rice.",
+    "imageUrl": "https://www.cookerru.com/wp-content/uploads/2020/08/chicken-katsu-curry-1-recipe-new.jpg"
+  },
+  {
+    "id": 8,
+    "itemType": "curry",
+    "title": "Beef Curry",
+    "price": "10.99",
+    "description": "Tender beef with a curry sauce.",
+    "imageUrl": "https://www.justonecookbook.com/wp-content/uploads/2022/05/Beef-Curry-7596-I-500x500.jpg"
+  },
+  {
+    "id": 9,
+    "itemType": "curry",
+    "title": "Vegetable Curry",
+    "price": "8.99",
+    "description": "Vegetable curry, yum!",
+    "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2021-09-sonoko-sakai-curry-with-rice%2F2021-09-09_ATK10573"
+  },
+  {
+    "id": 10,
+    "itemType": "drink",
+    "title": "Boba Tea",
+    "price": "4.99",
+    "description": "Brown sugar milk tea with tapioca pearls!",
+    "imageUrl": "https://www.honestfoodtalks.com/wp-content/uploads/2021/09/How-to-make-bubble-tea.jpeg"
+  },
+  {
+    "id": 11,
+    "itemType": "drink",
+    "title": "Matcha",
+    "price": "2.99",
+    "description": "Delicious green tea.",
+    "imageUrl": "https://www.acouplecooks.com/wp-content/uploads/2021/09/How-to-Make-Matcha-013s.jpg"
+  },
+  {
+    "id": 12,
+    "itemType": "drink",
+    "title": "Calpico",
+    "price": "4.99",
+    "description": "Calpico!!",
+    "imageUrl": "https://www.calpico-usa.com/assets/img/product-sliders/product__original1.jpg"
+  }
+]

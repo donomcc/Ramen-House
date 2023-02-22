@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import "./MenuItem.css";
 import AuthContext from "../context/AuthContext";
+import mealItems from "../meals.json";
 
 function MenuItem(props) {
   const [meals, setMeals] = useState([]);
@@ -20,18 +21,21 @@ function MenuItem(props) {
       });
   };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await axios.get("http://localhost:3001/menu");
-      setMeals(result.data);
-    };
-    fetchData();
-    console.log(meals);
-  }, []);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const result = await axios.get("http://localhost:3001/menu");
+  //     setMeals(result.data);
+  //   };
+  //   fetchData();
+  //   console.log(meals);
+  // }, []);
+
+  // In the demonstration I use the useEffect hook to automatically
+  // fetch the menu items from the database
 
   return (
     <div className="menuItemContainer">
-      {meals.map((meal) => {
+      {mealItems.map((meal) => {
         if (meal.itemType === props.itemType) {
           return (
             <div className="menuItem">

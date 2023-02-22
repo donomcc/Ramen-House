@@ -1,5 +1,8 @@
 .footer-container {
+  /* position: absolute; */
+  bottom: 0;
   height: 30%;
+  /* width: 100%; */
   padding: 18px 32px;
   color: white;
   display: flex;

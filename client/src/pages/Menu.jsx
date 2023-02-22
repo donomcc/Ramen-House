@@ -28,7 +28,7 @@ function Menu() {
           <MenuItem itemType="drink" />
         </div>
         <div className="dessertContainer">
-          <h2 className="centered typeHeader">Desserts</h2>
+          {/* <h2 className="centered typeHeader">Desserts</h2> */}
           <MenuItem itemType="dessert" />
         </div>
         <br />
