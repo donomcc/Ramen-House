@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ramen-House/static/css/main.79b794d8.css",
-    "main.js": "/Ramen-House/static/js/main.112d4d43.js",
+    "main.css": "/Ramen-House/static/css/main.a86d61d0.css",
+    "main.js": "/Ramen-House/static/js/main.534109a5.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Ramen-House/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/Ramen-House/index.html",
-    "main.79b794d8.css.map": "/Ramen-House/static/css/main.79b794d8.css.map",
-    "main.112d4d43.js.map": "/Ramen-House/static/js/main.112d4d43.js.map",
+    "main.a86d61d0.css.map": "/Ramen-House/static/css/main.a86d61d0.css.map",
+    "main.534109a5.js.map": "/Ramen-House/static/js/main.534109a5.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Ramen-House/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79b794d8.css",
-    "static/js/main.112d4d43.js"
+    "static/css/main.a86d61d0.css",
+    "static/js/main.534109a5.js"
   ]
 }
