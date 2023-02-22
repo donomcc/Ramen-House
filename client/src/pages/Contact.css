@@ -1,8 +1,8 @@
 .contact-container {
-  padding: 60px 250px;
+  padding: 20vh 40vh;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 25vh;
+  align-items: center;
 }
 
 .map-container {
