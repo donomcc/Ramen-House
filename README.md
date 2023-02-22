@@ -2,6 +2,8 @@ Idea:
 
 A fullstack website for a ramen restaurant.
 
+Demonstration: https://youtu.be/pOvRNtrmRTg
+
 Frontend:
 
     Clean navbar and footer that will be included in every page
